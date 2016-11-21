@@ -1,0 +1,10 @@
+// CORES
+$cinza-escuro: #333333;
+$cinza-claro: #555555;
+$branco: #FFFFFF;
+
+$font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+
+@mixin box-shadow{
+	box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.3);
+}

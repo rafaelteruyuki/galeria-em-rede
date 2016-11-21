@@ -1,0 +1,141 @@
+array(18) { 
+	["ID"]=> int(188) 
+	
+	["id"]=> int(188) 
+	
+	["title"]=> string(6) "gatro7" 
+	
+	["filename"]=> string(10) "gatro7.jpg" 
+	
+	["url"]=> string(79) "http://galeriaemrede.intranet.sp.senac.br/wp-
+	content/uploads/2016/10/gatro7.jpg"
+	
+	["alt"]=> string(0) "" 
+	
+	["author"]=> string(1) "1" 
+	
+	["description"]=> string(0) "" 
+	
+	["caption"]=> string(0) "" 
+	
+	["name"]=> string(6) "gatro7" 
+	
+	["date"]=> string(19) "2016-10-10 14:32:40" 
+	
+	["modified"]=> string(19) "2016-10-10 14:32:40" 
+	
+	["mime_type"]=> string(10) "image/jpeg" 
+	
+	["type"]=> string(5) "image" 
+	
+	["icon"]=> string(78) "http://galeriaemrede.intranet.sp.senac.br/wp-
+	includes/images/media/default.png"
+	
+	["width"]=> int(1300) 
+	
+	["height"]=> int(866) 
+	
+	["sizes"]=> array(12) { 
+	
+		["thumbnail"]=> string(87) 
+		"http://galeriaemrede.intranet.sp.senac.br/wp-content/uploads/2016/10/gatro7-150x150.jpg" 
+		["thumbnail-width"]=> int(150) 
+		["thumbnail-height"]=> int(150) 
+	
+		["medium"]=> string(87) "http://galeriaemrede.intranet.sp.senac.br/wp-
+		content/uploads/2016/10/gatro7-300x200.jpg" 
+		["medium-width"]=> int(300) 
+		["medium-height"]=> int(200) 
+	
+		["medium_large"]=> string(87) 
+		"http://galeriaemrede.intranet.sp.senac.br/wp-content/uploads/2016/10/gatro7-768x512.jpg" 
+		["medium_large-width"]=> int(768) 
+		["medium_large-height"]=> int(512) 
+	
+		["large"]=> string(88) "http://galeriaemrede.intranet.sp.senac.br/wp-
+		content/uploads/2016/10/gatro7-1024x682.jpg" 
+		["large-width"]=> int(1024) 
+		["large-height"]=> int(682)
+		
+		} 
+}
+
+
+array(27) { 
+	["ID"]=> int(161) 
+	
+	["key"]=> string(19) "field_57dc5e9a84f9d" 
+	
+	["label"]=> string(5) "Área" 
+	
+	["name"]=> string(4) "area" 
+	
+	["prefix"]=> string(0) "" 
+	
+	["type"]=> string(6) "select" 
+	
+	["value"]=> array(0) { } 
+	
+	["menu_order"]=> int(0) 
+	
+	["instructions"]=> string(0) "" 
+	
+	["required"]=> int(1) 
+	
+	["id"]=> string(0) "" 
+	
+	["class"]=> string(0) "" 
+	
+	["conditional_logic"]=> int(0) 
+	
+	["parent"]=> int(160) 
+	
+	["wrapper"]=> array(3) { 
+	
+	["width"]=> string(0) "" 
+	
+	["class"]=> string(0) "" 
+	
+	["id"]=> string(0) "" } 
+	
+	["_name"]=> string(4) "area" 
+	
+	["_input"]=> string(0) "" 
+	
+	["_valid"]=> int(1) 
+	
+	["choices"]=> array(15) { 
+		["gestao-negocios"]=> string(19) "Gestão e Negócios" 
+		["arquitetura-urbanismo"]=> string(23) "Arquitetura e Urbanismo" 
+		["comunicacao-artes"]=> string(21) "Comunicação e Artes" 
+		["design"]=> string(6) "Design" 
+		["desenvolvimento-social"]=> string(22) "Desenvolvimento Social" 
+		["educacao"]=> string(10) "Educação" 
+		["gastronomia"]=> string(11) "Gastronomia" 
+		["eventos-lazer"]=> string(15) "Eventos e Lazer" 
+		["hotelaria-turismo"]=> string(19) "Hotelaria e Turismo" 
+		["saude-bem-estar"]=> string(18) "Saúde e Bem-Estar" 
+		["limpeza-conservacao-zeladoria"]=> string(34) "Limpeza, Conservação e Zeladoria" 
+		["tecnologia-informacao"]=> string(26) "Tecnologia da Informação" 
+		["idiomas"]=> string(7) "Idiomas" 
+		["moda"]=> string(4) "Moda" 
+		["meio-ambiente-seguranca-saude-trabalho"]=> string(46) "Meio Ambiente, Segurança e Saúde no Trabalho" 
+		}
+		
+	
+	["default_value"]=> array(0) { } 
+	
+	["allow_null"]=> int(1) 
+	
+	["multiple"]=> int(0) 
+	
+	["ui"]=> int(0) 
+	
+	["ajax"]=> int(0) 
+	
+	["placeholder"]=> string(0) "" 
+	
+	["disabled"]=> int(0) 
+	
+	["readonly"]=> int(0) 
+}

@@ -1,0 +1,30 @@
+footer{
+	width: 100%;
+	background: $cinza-escuro;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: $branco;
+	text-align: center;
+	margin-top: 50px;
+	
+	section{
+		@media (min-width: 768px){
+			display: flex;
+			justify-content: space-around;
+			align-items: baseline;
+		}
+		
+		p{
+			margin-top: 20px;
+			margin-bottom: 0;
+			@media (min-width: 768px){
+				font-size: 1.2em;
+			}
+		}
+	}
+	
+	img{
+		width: 50%;
+		max-width: 350px;
+	}
+}

@@ -1,0 +1,253 @@
+array(2) { 
+	[0]=> array(1) { 
+		["material_ai_expo"]=> array(15) { 
+			["ID"]=> int(173)
+			
+			["id"]=> int(173) 
+			
+			["title"]=> string(29) "heranca_compartilhada_release" 
+			
+			["filename"]=> string(35) "heranca_compartilhada_release-1.pdf" 
+			
+			["url"]=> string(93) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/heranca_compartilhada_release-1.pdf" 
+			
+			["alt"]=> string(0) "" 
+			
+			["author"]=> string(1) "1" 
+			
+			["description"]=> string(0) "" 
+			
+			["caption"]=> string(0) "" 
+			
+			["name"]=> string(29) "heranca_compartilhada_release" 
+			
+			["date"]=> string(19) "2016-10-10 13:53:19" 
+			
+			["modified"]=> string(19) "2016-10-10 13:53:19" 
+			
+			["mime_type"]=> string(15) "application/pdf" 
+			
+			["type"]=> string(11) "application" 
+			
+			["icon"]=> string(68) "http://localhost/galeriaemrede/wp-includes/images/media/document.png" 
+		} 
+	} 
+	
+	[1]=> array(1) { 
+	["material_ai_expo"]=> array(15) { 
+	["ID"]=> int(174) 
+	["id"]=> int(174) 
+	["title"]=> string(24) "heranca_compartilhada_ai" 
+	["filename"]=> string(31) "heranca_compartilhada_AI-1.docx" 
+	["url"]=> string(89) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/heranca_compartilhada_AI-1.docx" 
+	["alt"]=> string(0) "" 
+	["author"]=> string(1) "1" 
+	["description"]=> string(0) "" 
+	["caption"]=> string(0) "" 
+	["name"]=> string(24) "heranca_compartilhada_ai" 
+	["date"]=> string(19) "2016-10-10 13:53:20" 
+	["modified"]=> string(19) "2016-10-10 13:53:20" 
+	["mime_type"]=> string(71) "application/vnd.openxmlformats-officedocument.wordprocessingml.document" 
+	["type"]=> string(11) "application" 
+	["icon"]=> string(68) "http://localhost/galeriaemrede/wp-includes/images/media/document.png" } } }
+
+
+
+array(2) { 
+	
+	
+	[0]=> array(18) { 
+		
+		
+		["ID"]=> int(171) 
+		
+		
+		["id"]=> int(171) 
+		
+		
+		["title"]=> string(59) "folder-heranca-compartilhada-a4-2-vincos-sugestao-interno-2" 
+		
+		
+		["filename"]=> string(65) "Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-INTERNO-2-1.jpg" 
+		
+		
+		["url"]=> string(123) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-INTERNO-2-1.jpg" 
+		
+		
+		["alt"]=> string(0) "" 
+		
+		
+		["author"]=> string(1) "1" 
+		
+		
+		["description"]=> string(0) "" 
+		
+		
+		["caption"]=> string(0) "" 
+		
+		
+		["name"]=> string(59) "folder-heranca-compartilhada-a4-2-vincos-sugestao-interno-2" 
+		
+		
+		["date"]=> string(19) "2016-10-10 13:52:08" 
+		
+		
+		["modified"]=> string(19) "2016-10-10 13:52:08" 
+		
+		
+		["mime_type"]=> string(10) "image/jpeg" 
+		
+		
+		["type"]=> string(5) "image" 
+		
+		
+		["icon"]=> string(67) "http://localhost/galeriaemrede/wp-includes/images/media/default.png" 
+		
+		
+		["width"]=> int(1921) 
+		
+		
+		["height"]=> int(1384) 
+		
+		
+		["sizes"]=> array(12) { 
+			
+			
+			["thumbnail"]=> string(131) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-INTERNO-2-1-150x150.jpg" 
+			
+			
+			["thumbnail-width"]=> int(150) 
+			
+			
+			["thumbnail-height"]=> int(150) 
+			
+			
+			["medium"]=> string(131) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-INTERNO-2-1-300x216.jpg" 
+			
+			
+			["medium-width"]=> int(300) 
+			
+			
+			["medium-height"]=> int(216) 
+			
+			
+			["medium_large"]=> string(131) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-INTERNO-2-1-768x553.jpg" 
+			
+			
+			["medium_large-width"]=> int(768) 
+			
+			
+			["medium_large-height"]=> int(553) 
+			
+			
+			["large"]=> string(132) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-INTERNO-2-1-1024x738.jpg" 
+			
+			
+			["large-width"]=> int(1024) 
+			
+			
+			["large-height"]=> int(738) 
+			} 
+		} 
+	
+	
+	[1]=> array(18) { 
+		
+		
+		["ID"]=> int(172) 
+		
+		
+		["id"]=> int(172) 
+		
+		
+		["title"]=> string(59) "folder-heranca-compartilhada-a4-2-vincos-sugestao-externo-2" 
+		
+		
+		["filename"]=> string(65) "Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-EXTERNO-2-1.jpg" 
+		
+		
+		["url"]=> string(123) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-EXTERNO-2-1.jpg" 
+		
+		
+		["alt"]=> string(0) "" 
+		
+		
+		["author"]=> string(1) "1" 
+		
+		
+		["description"]=> string(0) "" 
+		
+		
+		["caption"]=> string(0) "" 
+		
+		
+		["name"]=> string(59) "folder-heranca-compartilhada-a4-2-vincos-sugestao-externo-2" 
+		
+		
+		["date"]=> string(19) "2016-10-10 13:52:11" 
+		
+		
+		["modified"]=> string(19) "2016-10-10 13:52:11" 
+		
+		
+		["mime_type"]=> string(10) "image/jpeg" 
+		
+		
+		["type"]=> string(5) "image" 
+		
+		
+		["icon"]=> string(67) "http://localhost/galeriaemrede/wp-includes/images/media/default.png" 
+		
+		
+		["width"]=> int(1921) 
+		
+		
+		["height"]=> int(1384) 
+		
+		
+		["sizes"]=> array(12) { 
+			
+			
+			["thumbnail"]=> string(131) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-EXTERNO-2-1-150x150.jpg" 
+			
+			
+			["thumbnail-width"]=> int(150) 
+			
+			
+			["thumbnail-height"]=> int(150) 
+			
+			
+			["medium"]=> string(131) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-EXTERNO-2-1-300x216.jpg" 
+			
+			
+			["medium-width"]=> int(300) 
+			
+			
+			["medium-height"]=> int(216) 
+			
+			
+			["medium_large"]=> string(131) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-EXTERNO-2-1-768x553.jpg" 
+			
+			
+			["medium_large-width"]=> int(768) 
+			
+			
+			["medium_large-height"]=> int(553) 
+			
+			
+			["large"]=> string(132) "http://localhost/galeriaemrede/wp-content/uploads/2016/10/Folder-Heranca-Compartilhada-A4-2-vincos-Sugestao-EXTERNO-2-1-1024x738.jpg" 
+			
+			
+			["large-width"]=> int(1024) 
+			
+			
+			["large-height"]=> int(738) 
+			} 
+		} 
+	}
+	
+	array(1) { 
+		[0]=> array(1) { 
+			["infra_item_expo"]=> string(32) "Expositores para 20 fotografias." } }
+			
+		

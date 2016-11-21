@@ -1,0 +1,16 @@
+.login h1 a{
+	background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #444;
+    height: 100%;
+    font-size: 27px;
+    line-height: 1.3em;
+    margin: 0 auto 25px;
+    padding: 0;
+    text-decoration: none;
+    width: 100%;
+    text-indent: -9999px;
+    outline: 0;
+    display: block;
+}
