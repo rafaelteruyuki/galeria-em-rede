@@ -1,0 +1,23 @@
+{
+  "name": "galeria-em-rede",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelteruyuki/galeria-em-rede.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelteruyuki/galeria-em-rede/issues"
+  },
+  "homepage": "https://github.com/rafaelteruyuki/galeria-em-rede#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}
