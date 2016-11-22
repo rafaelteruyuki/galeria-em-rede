@@ -46,5 +46,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#Node.js
+
+
+# Project Folders
 node_modules
+dist
+.ftppass

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // CARREGA OS ESTILOS
 add_action('wp_enqueue_scripts', 'loadStyles' );
@@ -8,21 +8,21 @@ function loadStyles(){
 
 	wp_register_style('lightbox',  get_template_directory_uri().'/assets/css/lightbox.min.css');
 	wp_enqueue_style( 'lightbox' );
-	
+
 	wp_register_style('estilo',  get_template_directory_uri().'/assets/css/estilo.css');
 	wp_enqueue_style( 'estilo' );
-	
+
 }
 
 // CARREGA OS SCRIPTS
 add_action('wp_enqueue_scripts', 'loadScripts' );
 function loadScripts(){
-	
+
 	wp_enqueue_script( 'lightBox', get_template_directory_uri().'/assets/js/lightbox.js', array('jquery'), '', true );
-	
+
 	//scripts do tema
 	wp_enqueue_script( 'myScript', get_template_directory_uri().'/assets/js/script.js', array('jquery'), '', true );
-	
+
 	// disponibiliza a variavel ajax_url para acesso via javaScript
 	wp_localize_script('myScript', 'ajax_object', array(
 		'ajax_url' => admin_url('admin-ajax.php'),
@@ -74,7 +74,7 @@ function register_expo() {
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
-		'has_archive'           => true,		
+		'has_archive'           => true,
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
@@ -103,12 +103,12 @@ function consultaSubarea(){
 	$area = $_REQUEST['area'];
 	$subarea = 'subarea-' . $area;
 	//var_dump($subarea);
-	
+
 	$subareaField = acf_get_field($subarea);
 	//var_dump(json_encode($subareaField["choices"]));
-	
+
 	echo json_encode($subareaField["choices"]);
-	
+
 	wp_die();
 }
 
@@ -118,23 +118,23 @@ function consultaExposicao($args){
 	$query = new WP_Query($args);
 	if($query->have_posts()){
 		$exposicoes = array();
-		
+
 		while($query->have_posts()){
 			$query->the_post();
 			$img = get_field('imagem-principal-expo');
 			//var_dump(get_the_title());
-			
+
 			$expo = array(
 				'permalink'	=> get_the_permalink(),
 				'imgSrc'	=> $img["sizes"]["medium_large"],
 				'imgAlt'	=> $img["alt"],
 				'title'		=> get_the_title()
 			);
-			
+
 			array_push($exposicoes, $expo);
 		}
 	}
-	
+
 	return $exposicoes;
 }
 
@@ -151,7 +151,7 @@ function consultarPorArea(){
 		'meta_value'	 => $area,
 		'posts_per_page' => -1
 	);
-	
+
 	echo json_encode(consultaExposicao($args));
 	wp_die();
 }
@@ -164,7 +164,7 @@ add_action('wp_ajax_nopriv_consultar_por_subarea', 'consultarPorSubarea');
 function consultarPorSubarea(){
 	$subareaKey = $_REQUEST['subareaKey'];
 	$subareaValue = $_REQUEST['subareaValue'];
-	
+
 	$args = array(
 		'post_type' 	 => 'exposicao',
 		'order'			 => 'DESC',
@@ -172,7 +172,7 @@ function consultarPorSubarea(){
 		'meta_value'	 => $subareaValue,
 		'posts_per_page' => -1
 	);
-	
+
 	echo json_encode(consultaExposicao($args));
 	wp_die();
 }
