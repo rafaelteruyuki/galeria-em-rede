@@ -1,17 +1,17 @@
-<?php 
-define( 'WP_USE_THEMES', false ); 
+<?php
+define( 'WP_USE_THEMES', false );
 get_header();
 
 $areas = get_field_object("field_57dc5e9a84f9d");
 ?>
 <div id="wrapper" class="container">
-	
+
 	<article id="galeria-sobre">
 		<section>
 			<h2>Exposições</h2>
 		</section>
 	</article>
-	
+
 	<aside>
 		<h2>buscar exposição</h2>
 		<label for="area">área</label>
@@ -25,7 +25,7 @@ $areas = get_field_object("field_57dc5e9a84f9d");
 		<select id="subarea" name="subarea">
 			<option value="" selected>Todas as subáreas</option>
 		</select>
-		
+
 		<form method="GET" action="<?php bloginfo('url') ?>" role="search">
       		<input id="campo-pesquisa" type="search" name="s" placeholder="Pesquisar...">
       		<button type="submit">Pesquisar</button>
@@ -34,12 +34,16 @@ $areas = get_field_object("field_57dc5e9a84f9d");
 
 	<main id="exposicoes">
 	<?php
+
 	$args = array(
 				'post_type' => 'exposicao',
-				'posts_per_page' => -1);
+				'posts_per_page' => -1
+			);
+			
 	$query = new WP_Query($args);
 
-	if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); 
+	if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();
+
 		$imagem = get_field('imagem-principal-expo');
 	?>
 
@@ -52,9 +56,11 @@ $areas = get_field_object("field_57dc5e9a84f9d");
 			</a>
 		</figure>
 
-	<?php endwhile; else : ?>
+	<?php endwhile;
+	wp_reset_postdata();
+	else : ?>
 		<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-	<?php endif; ?>
+	<?php endif;  ?>
 	</main>
 </div>
 
