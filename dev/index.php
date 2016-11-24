@@ -35,11 +35,14 @@ $areas = get_field_object("field_57dc5e9a84f9d");
 	<main id="exposicoes">
 	<?php
 
+	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+
 	$args = array(
-				'post_type' => 'exposicao',
-				'posts_per_page' => -1
+				'post_type' 		=> 'exposicao',
+				'posts_per_page' 	=> 2,
+				'paged'				=> $paged
 			);
-			
+
 	$query = new WP_Query($args);
 
 	if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();
@@ -56,7 +59,12 @@ $areas = get_field_object("field_57dc5e9a84f9d");
 			</a>
 		</figure>
 
-	<?php endwhile;
+	<?php endwhile; ?>
+
+	<div class="nav-previous alignleft"><?php next_posts_link( 'Next Lessons', $query->max_num_pages ); ?></div>
+	<div class="nav-next alignright"><?php previous_posts_link( 'Previous Lessons' ); ?></div>
+
+	<?php
 	wp_reset_postdata();
 	else : ?>
 		<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
