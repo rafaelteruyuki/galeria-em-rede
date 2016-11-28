@@ -39,7 +39,7 @@ $areas = get_field_object("field_57dc5e9a84f9d");
 
 	$args = array(
 				'post_type' 		=> 'exposicao',
-				'posts_per_page' 	=> 2,
+				'posts_per_page' 	=> -1,
 				'paged'				=> $paged
 			);
 
@@ -60,9 +60,6 @@ $areas = get_field_object("field_57dc5e9a84f9d");
 		</figure>
 
 	<?php endwhile; ?>
-
-	<div class="nav-previous alignleft"><?php next_posts_link( 'Next Lessons', $query->max_num_pages ); ?></div>
-	<div class="nav-next alignright"><?php previous_posts_link( 'Previous Lessons' ); ?></div>
 
 	<?php
 	wp_reset_postdata();
